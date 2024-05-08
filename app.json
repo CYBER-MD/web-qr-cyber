@@ -1,0 +1,28 @@
+{
+    "name": "suhail-md",
+    "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
+    "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+    "repository": "https://github.com/SuhailTechInfo/web-qr",
+    "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "『 WOW  CYBER-MD 』
+
+👨‍💻You complete first step to making Bot.
+
+👨‍💻OWNER CYBER-AYESH _https://wa.me/94775341543
+
+👨‍💻 Note :_Don't provide your SESSION_ID",
+        "required": true
+      }
+    }   
+
+}
